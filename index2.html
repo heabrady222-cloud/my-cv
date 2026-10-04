@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEAB RADY - CV</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.5;
+            padding: 30px 15px;
+        }
+
+        .cv-page {
+            max-width: 900px;
+            margin: auto;
+            background-color: #ffffff;
+            display: flex;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Left Column (Dark Blue Background) */
+        .left-column {
+            width: 35%;
+            background-color: #1a2c42; /* Dark Blue */
+            color: #ffffff;
+            padding: 40px 25px;
+        }
+
+        .left-column h3 {
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            margin-top: 25px;
+            color: #ffffff;
+        }
+
+        /* Set margin-top: 0 for the first heading in left column to align with the right column */
+        .left-column h3:first-child {
+            margin-top: 0;
+        }
+
+        .left-column p, .left-column li, .left-column div {
+            font-size: 14px;
+            color: #dcdcdc;
+        }
+
+        .left-column ul {
+            padding-left: 18px;
+            margin-bottom: 15px;
+        }
+
+        .left-column li {
+            margin-bottom: 6px;
+        }
+
+        .contact-box div {
+            margin-bottom: 10px;
+            word-break: break-all;
+        }
+
+        /* Right Column (White Background) */
+        .right-column {
+            width: 65%;
+            padding: 40px 35px;
+        }
+
+        .right-column h1 {
+            font-size: 32px;
+            text-transform: uppercase;
+            color: #222;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+
+        .right-column h2.job-title {
+            font-size: 16px;
+            text-transform: uppercase;
+            color: #555;
+            letter-spacing: 2px;
+            margin-bottom: 25px;
+            font-weight: 600;
+            border-bottom: 2px solid #1a2c42;
+            padding-bottom: 10px;
+        }
+
+        .right-column h3 {
+            font-size: 15px;
+            text-transform: uppercase;
+            color: #1a2c42;
+            letter-spacing: 1px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .right-column h4 {
+            font-size: 15px;
+            color: #145bb5;
+            margin-top: 15px;
+            margin-bottom: 3px;
+        }
+
+        .right-column p, .right-column li {
+            font-size: 14px;
+            color: #444;
+            margin-bottom: 8px;
+        }
+
+        .right-column ul {
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        .sub-text {
+            font-size: 13px;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .footer-note {
+            font-size: 12px;
+            color: #777;
+            margin-top: 40px;
+            border-top: 1px solid #eee;
+            padding-top: 10px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .cv-page {
+                flex-direction: column;
+            }
+            .left-column, .right-column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="cv-page">
+
+    <!-- Left Sidebar -->
+    <div class="left-column">
+        <h3>Contact</h3>
+        <div class="contact-box">
+            <div>📍 Phnom Penh, Cambodia</div>
+            <div>📞 096 586 1655</div>
+            <div>✉️ heabrady222@gmail.com</div>
+        </div>
+
+        <h3>Personal Skills</h3>
+        <ul>
+            <li>Good Communication Skills</li>
+            <li>Teamwork and Collaboration</li>
+            <li>Problem-Solving Ability</li>
+            <li>Quick Learner</li>
+            <li>Responsible and Self-Motivated</li>
+        </ul>
+
+        <h3>Languages</h3>
+        <p>
+            <strong>Khmer:</strong> Native<br>
+            <strong>English:</strong> Intermediate
+        </p>
+    </div>
+
+    <!-- Right Main Content -->
+    <div class="right-column">
+        <h1>HEAB RADY</h1>
+        <h2 class="job-title">Junior Frontend Developer</h2>
+
+        <h3>Career Objective</h3>
+        <p>
+            Motivated second-year Information Technology student seeking an internship
+            opportunity in frontend development. Eager to apply my knowledge of HTML,
+            CSS, and JavaScript, gain practical experience, learn from experienced
+            developers, and contribute to real-world projects.
+        </p>
+
+        <h3>Education</h3>
+        <h4>Royal University of Phnom Penh (RUPP)</h4>
+        <span class="sub-text">Information Technology | Currently Studying - Year 3</span>
+        <p>
+            Studying programming, database systems, computer science
+            fundamentals, web development, and other IT subjects.
+        </p>
+
+        <h3>Skills</h3>
+        <p>
+            HTML, CSS, JavaScript, Responsive Web Design,
+            Basic Web Development, Microsoft Word,
+            Microsoft PowerPoint, Communication, Teamwork,
+            Problem Solving, Quick Learning
+        </p>
+
+        <h3>Experience</h3>
+        <h4>No Professional Work Experience</h4>
+        <span class="sub-text">Currently seeking an internship</span>
+        <p>
+            Currently seeking an internship opportunity to gain practical experience in frontend development.
+        </p>
+        <ul>
+            <li>Practiced creating basic web pages using HTML and CSS.</li>
+            <li>Learned JavaScript fundamentals through university studies and self-learning.</li>
+            <li>Interested in creating responsive and user-friendly websites.</li>
+        </ul>
+        <p><strong>Skills:</strong> HTML, CSS, JavaScript, Responsive Web Design</p>
+
+        <div class="footer-note">
+            Copyright © 2026 by HEAB RADY. All rights reserved.
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
